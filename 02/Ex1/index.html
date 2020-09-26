@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> List of products </h1>
+    <form method="get" action="temp.php">
+        <fieldset>
+            <legend> Create your copy </legend> <br>
+            <label for="email">Enter you email</label><br>
+            <input type="email" name="reg_email" id="email"> <br>
+            <label for="date">Enter date</label> <br>
+            <input type="date" name="today" id="date"> <br>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend> Create your notes</legend> <br>
+            <textarea name="notes" cols="50" rows="4"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend> Check breakfast </legend> <br>
+            <label> <input type="checkbox" name="other3" value="ex3"> oatmeal</label> <br>
+            <label> <input type="checkbox" name="other2" value="ex2"> eggs</label> <br>
+            <label> <input type="checkbox" name="other1" value="ex1"> toast</label> <br>
+        </fieldset>
+        <fieldset>
+            <legend> Choose products</legend> <br>
+            <select name="product" id="product">
+                <option hidden disabled selected=""> =Select products= </option>
+                <option value="beer">Beer</option>
+                <option value="bread">Bread</option>
+                <option value="bread">Beef</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+
+</html>
